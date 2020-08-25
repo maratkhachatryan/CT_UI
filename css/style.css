@@ -261,10 +261,8 @@ body {
 }
 
 .course-info-block {
-    position: relative;
-    margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
+     position: relative;
+     margin: 0 auto;
 }
 
 .course-info-planets {

@@ -15,7 +15,7 @@
        margin-right: 30px;
    }
    .form {
-       max-width: 550px;
+       max-width: 445px;
        width: 100%;
        max-height: 370px;
        height: 100%;
@@ -119,7 +119,8 @@
 
     }
     .course-info-planets {
-        top: 10px;
+        top: -15px;
+        width: 230px;
     }
 
     #field-submit>input {
@@ -257,10 +258,18 @@
     .registration__button {
         padding: 8px 13px;
         font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .course-info-block {
         margin: 0 20px;
     }
 
 }
-@media (max-width: 810px)
+@media (max-width: 810px) {
+    .course__details {
+        max-width: 615px;
+        width: 100%;
+    }
+}
