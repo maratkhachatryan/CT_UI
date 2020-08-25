@@ -321,3 +321,100 @@
     }
 }
 
+@media (max-width: 600px) {
+    .registration__button, .telephone__number {
+        display: none;
+    }
+
+    .registration__button__bottom {
+        display: flex;
+        font-size: 12px;
+    }
+
+    .course_info {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 505px;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        margin: 80px auto 40px auto;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+    .info__item__title {
+        margin: 0;
+    }
+
+    .main_title {
+        font-size: 33px;
+        letter-spacing: 2px;
+    }
+
+    .course-info-planets {
+        width: 190px;
+    }
+
+    .course__details {
+        max-width: 475px;
+    }
+
+    .course__details__item {
+        font-size: 18px;
+    }
+
+    .accordion {
+        padding: 44px 44px 35px 50px;
+    }
+
+    .course__info__button {
+        padding: 6px 65px;
+    }
+
+    .teacher__info {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .teacher__info__description {
+        margin-left: 0;
+    }
+
+    .registration__block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1440px;
+        width: 100%;
+    }
+    .registration__form {
+        margin-right: 1px;
+        margin-top: 30px;
+    }
+
+    .course__name {
+        font-size: 39px;
+    }
+
+    .course__name__slogan {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .course__price__title {
+        font-size: 22px;
+    }
+
+    .course__price {
+        font-size: 44px;
+    }
+
+    .course__benefit__list__item {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+}
+
