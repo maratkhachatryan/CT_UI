@@ -273,3 +273,51 @@
         width: 100%;
     }
 }
+
+
+@media (max-width: 750px) {
+    .registration__button {
+        padding: 15px 11px;
+        font-size: 10px;
+        height: 0;
+    }
+
+    .telephone__number {
+        height: 0;
+        display: flex;
+        align-items: center;
+        margin-left: 9px;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .navigation__item {
+        padding: 0 15px;
+    }
+
+    .teacher__block {
+        padding: 95px;
+    }
+
+    .teacher__job__position {
+        font-size: 18px;
+    }
+
+    .form__title {
+        font-size: 25px;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .form {
+        max-width: 365px;
+
+    }
+}
+
