@@ -27,10 +27,8 @@
     <!--Favicon End-->
 
     <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/accordion.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
     <title>#CodeTime</title>
 </head>
 <body>
@@ -43,6 +41,22 @@
     <div class="main_page">
         <div class="header">
             <a href="#" class="main__page__link">#CodeTime</a>
+            <div class="m-dropdown">
+                <div class="e-button open">
+                    <div class="e-burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <ul class="e-list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Teacher</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Plan</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">CodeTime</a></li>
+                </ul>
+            </div>
             <ul class="navigation">
                 <li class="navigation__item">
                     <a href="#" class="navigation__link">About</a>
@@ -87,23 +101,25 @@
 </div>
 <div class="for__who">
     <h2 class="for__who__title">Who is this course for?</h2>
-    <div class="for__who__pictures">
-        <img src="img/big-icons/beginner_planet.png" alt="" class="beginner">
-        <img src="img/big-icons/junior_planet.png" alt="" class="junior">
-        <img src="img/big-icons/designer_planet.png" alt="" class="designer">
-    </div>
-    <div class="for__who__info__blocks">
-        <div class="for__who__block__info">
-            <h3 class="for__who__block__title">For beginners</h3>
-            <p class="for__who__block__subtitle">You will start with the basics and gradually learn everything about the profession. The course is built adaptively - the complexity of the tasks will grow with your experience.</p>
+    <div class="for__who__blocks">
+        <div class="for__who__pictures">
+            <img src="img/big-icons/beginner_planet.png" alt="" class="beginner">
+            <img src="img/big-icons/junior_planet.png" alt="" class="junior">
+            <img src="img/big-icons/designer_planet.png" alt="" class="designer">
         </div>
-        <div class="for__who__block__info">
-            <h3 class="for__who__block__title">Junior</h3>
-            <p class="for__who__block__subtitle">Get up-to-date knowledge from leading designers - and you can quickly grow as a specialist.</p>
-        </div>
-        <div class="for__who__block__info">
-            <h3 class="for__who__block__title">For designers</h3>
-            <p class="for__who__block__subtitle">Gain skills in UX design, fill in knowledge gaps and add a case for a real customer to your portfolio.</p>
+        <div class="for__who__info__blocks">
+            <div class="for__who__block__info">
+                <h3 class="for__who__block__title">For beginners</h3>
+                <p class="for__who__block__subtitle">You will start with the basics and gradually learn everything about the profession. The course is built adaptively - the complexity of the tasks will grow with your experience.</p>
+            </div>
+            <div class="for__who__block__info">
+                <h3 class="for__who__block__title">Junior</h3>
+                <p class="for__who__block__subtitle">Get up-to-date knowledge from leading designers - and you can quickly grow as a specialist.</p>
+            </div>
+            <div class="for__who__block__info">
+                <h3 class="for__who__block__title">For designers</h3>
+                <p class="for__who__block__subtitle">Gain skills in UX design, fill in knowledge gaps and add a case for a real customer to your portfolio.</p>
+            </div>
         </div>
     </div>
 </div>
@@ -266,5 +282,6 @@
 </div>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/accordion.js"></script>
+<script src="js/navbar.js"></script>
 </body>
 </html>
